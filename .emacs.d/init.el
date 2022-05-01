@@ -1,0 +1,16 @@
+(when (display-graphic-p)
+  (set-frame-font (font-spec :family "D2Coding" :size 22))
+  (set-fontset-font "fontset-default" 'hangul
+                    (font-spec :family "D2Coding" :size 22)))
+
+(setq inhibit-splash-screen t)
+(global-font-lock-mode t) 
+(transient-mark-mode 1)
+(require 'org)
+(add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
+(setq x-select-enable-primary t)
+(setq x-select-enable-clipboard t)
+(global-visual-line-mode t)
+(setq org-support-shift-select 'always)
+(load-theme 'zenburn t)
+;(load-theme 'solarized-light t)
