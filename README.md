@@ -5,4 +5,4 @@ minimal debian with openbox &amp; tint2
 ..
 
 ## tint2
-..
+...
